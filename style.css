@@ -472,3 +472,20 @@ body {
     box-shadow:
         0 25px 50px rgba(250, 204, 21, 0.4);
 }
+
+/* TEXT LOGO */
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #e5e7eb;
+  user-select: none;
+}
+
+/* Highlighted first letter */
+.logo-s {
+  background: linear-gradient(135deg, #3b82f6, #facc15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}

@@ -18,7 +18,10 @@
 
 <body>
     <header class="site-header">
-        <img src="logo.png" alt="Sarvesh.dev logo" class="site-logo">
+        <div class="logo">
+            <span class="logo-s">S</span>arvesh
+        </div>
+
     </header>
 
 
@@ -64,6 +67,8 @@
                     <span>JavaScript</span>
                     <span>SEO</span>
                     <span>Vercel</span>
+                    <span>React native</span>
+                    <span>Node JS</span>
                 </div>
 
 
@@ -107,6 +112,14 @@
                 <h3>Age Calculator</h3>
                 <p>
                     Simple age calculator designed for organic search traffic.
+                </p>
+                <a href="#" target="_blank">Comming Soon</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Career Nest</h3>
+                <p>
+                    Job career develpor tools like resume summary.
                 </p>
                 <a href="#" target="_blank">Comming Soon</a>
             </div>
@@ -156,23 +169,40 @@
 
 
     <!-- VANTA BACKGROUND -->
+    <!-- VANTA BIRDS BACKGROUND -->
     <script src="three.r134.min.js"></script>
-    <script src="vanta.net.min.js"></script>
+    <script src="vanta.birds.min.js"></script>
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            VANTA.NET({
+            VANTA.BIRDS({
                 el: "#hero-bg",
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: false,
-                color: 0x14b8a6,
+
+                minHeight: 200.0,
+                minWidth: 200.0,
+                scale: 1.0,
+                scaleMobile: 1.0,
+
                 backgroundColor: 0x020617,
-                points: 10,
-                maxDistance: 22,
-                spacing: 16
+                color1: 0xff0000,
+                color2: 0xd1ff,
+
+                birdSize: 1.1,
+                wingSpan: 22,
+                speedLimit: 5,
+
+                separation: 60,
+                alignment: 45,
+                cohesion: 55,
+
+                quantity: 6
             });
         });
     </script>
+
 
 
 </body>
